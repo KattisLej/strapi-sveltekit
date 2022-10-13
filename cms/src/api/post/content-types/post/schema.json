@@ -26,6 +26,10 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "posts"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
